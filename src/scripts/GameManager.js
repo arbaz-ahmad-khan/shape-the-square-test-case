@@ -30,6 +30,7 @@ class GameManager {
                 return ['base10', 'top10', 'holder10', "982AAE"];
             default:
                 return ['base1', 'top1', 'holder1', "590091"];
+                
         }
     }
 }
