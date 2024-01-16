@@ -1,0 +1,50 @@
+{
+  "name": "starter-template-basic-javascript",
+  "version": "1.0.0",
+  "description": "Basic JavaScript project template for Phaser Editor 2D.",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest",
+    "editor": "phasereditor2d-launcher -project . -port 1959",
+    "editor-remote": "phasereditor2d-launcher -project . -disable-open-browser -public -port 1959"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhaserEditor2D/starter-template-basic-javascript.git"
+  },
+  "keywords": [
+    "phaser",
+    "phasereditor2d",
+    "html5",
+    "video-game"
+  ],
+  "author": "Arian Fornaris <developers@phasereditor2d.com> (https://phasereditor2d.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PhaserEditor2D/starter-template-basic-javascript/issues"
+  },
+  "homepage": "https://github.com/PhaserEditor2D/starter-template-basic-javascript#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.8",
+    "jest": "^29.7.0",
+    "jest-canvas-mock": "^2.5.2",
+    "jest-environment-jsdom": "^29.7.0",
+    "phasereditor2d-launcher": "^3.32.0"
+  },
+  "dependencies": {
+    "phaser": "^3.70.0",
+    "phaser3spectorjs": "^0.0.8"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    },
+    "setupFiles": [
+      "<rootDir>tests/setupTests.js"
+    ],
+    "testEnvironment": "jest-environment-jsdom"
+  }
+}

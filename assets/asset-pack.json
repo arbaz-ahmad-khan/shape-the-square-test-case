@@ -1,0 +1,228 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/base/base1.png",
+                "type": "image",
+                "key": "base1"
+            },
+            {
+                "url": "assets/images/base/base10.png",
+                "type": "image",
+                "key": "base10"
+            },
+            {
+                "url": "assets/images/base/base2.png",
+                "type": "image",
+                "key": "base2"
+            },
+            {
+                "url": "assets/images/base/base3.png",
+                "type": "image",
+                "key": "base3"
+            },
+            {
+                "url": "assets/images/base/base4.png",
+                "type": "image",
+                "key": "base4"
+            },
+            {
+                "url": "assets/images/base/base5.png",
+                "type": "image",
+                "key": "base5"
+            },
+            {
+                "url": "assets/images/base/base6.png",
+                "type": "image",
+                "key": "base6"
+            },
+            {
+                "url": "assets/images/base/base7.png",
+                "type": "image",
+                "key": "base7"
+            },
+            {
+                "url": "assets/images/base/base8.png",
+                "type": "image",
+                "key": "base8"
+            },
+            {
+                "url": "assets/images/base/base9.png",
+                "type": "image",
+                "key": "base9"
+            },
+            {
+                "url": "assets/images/bg/bg1.png",
+                "type": "image",
+                "key": "bg1"
+            },
+            {
+                "url": "assets/images/bg/bg10.png",
+                "type": "image",
+                "key": "bg10"
+            },
+            {
+                "url": "assets/images/bg/bg2.png",
+                "type": "image",
+                "key": "bg2"
+            },
+            {
+                "url": "assets/images/bg/bg3.png",
+                "type": "image",
+                "key": "bg3"
+            },
+            {
+                "url": "assets/images/bg/bg4.png",
+                "type": "image",
+                "key": "bg4"
+            },
+            {
+                "url": "assets/images/bg/bg5.png",
+                "type": "image",
+                "key": "bg5"
+            },
+            {
+                "url": "assets/images/bg/bg6.png",
+                "type": "image",
+                "key": "bg6"
+            },
+            {
+                "url": "assets/images/bg/bg7.png",
+                "type": "image",
+                "key": "bg7"
+            },
+            {
+                "url": "assets/images/bg/bg8.png",
+                "type": "image",
+                "key": "bg8"
+            },
+            {
+                "url": "assets/images/bg/bg9.png",
+                "type": "image",
+                "key": "bg9"
+            },
+            {
+                "url": "assets/font.fnt",
+                "type": "binary",
+                "key": "font"
+            },
+            {
+                "url": "src/scripts/GameManager.js",
+                "type": "script",
+                "key": "GameManager"
+            },
+            {
+                "url": "assets/images/holder/holder1.png",
+                "type": "image",
+                "key": "holder1"
+            },
+            {
+                "url": "assets/images/holder/holder10.png",
+                "type": "image",
+                "key": "holder10"
+            },
+            {
+                "url": "assets/images/holder/holder2.png",
+                "type": "image",
+                "key": "holder2"
+            },
+            {
+                "url": "assets/images/holder/holder3.png",
+                "type": "image",
+                "key": "holder3"
+            },
+            {
+                "url": "assets/images/holder/holder4.png",
+                "type": "image",
+                "key": "holder4"
+            },
+            {
+                "url": "assets/images/holder/holder5.png",
+                "type": "image",
+                "key": "holder5"
+            },
+            {
+                "url": "assets/images/holder/holder6.png",
+                "type": "image",
+                "key": "holder6"
+            },
+            {
+                "url": "assets/images/holder/holder7.png",
+                "type": "image",
+                "key": "holder7"
+            },
+            {
+                "url": "assets/images/holder/holder8.png",
+                "type": "image",
+                "key": "holder8"
+            },
+            {
+                "url": "assets/images/holder/holder9.png",
+                "type": "image",
+                "key": "holder9"
+            },
+            {
+                "url": "assets/images/square2.png",
+                "type": "image",
+                "key": "square2"
+            },
+            {
+                "url": "assets/images/top/top1.png",
+                "type": "image",
+                "key": "top1"
+            },
+            {
+                "url": "assets/images/top/top10.png",
+                "type": "image",
+                "key": "top10"
+            },
+            {
+                "url": "assets/images/top/top2.png",
+                "type": "image",
+                "key": "top2"
+            },
+            {
+                "url": "assets/images/top/top3.png",
+                "type": "image",
+                "key": "top3"
+            },
+            {
+                "url": "assets/images/top/top4.png",
+                "type": "image",
+                "key": "top4"
+            },
+            {
+                "url": "assets/images/top/top5.png",
+                "type": "image",
+                "key": "top5"
+            },
+            {
+                "url": "assets/images/top/top6.png",
+                "type": "image",
+                "key": "top6"
+            },
+            {
+                "url": "assets/images/top/top7.png",
+                "type": "image",
+                "key": "top7"
+            },
+            {
+                "url": "assets/images/top/top8.png",
+                "type": "image",
+                "key": "top8"
+            },
+            {
+                "url": "assets/images/top/top9.png",
+                "type": "image",
+                "key": "top9"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

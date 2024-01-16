@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet preload" as="font" href="assets/fonts/pusab.otf" type="font/otf" crossorigin />
+
+	<title>Shape the Square</title>
+
+	<script src="lib/phaser.min.js"></script>
+	<script src="lib/confetti.min.js"></script>
+	<script src="src/components/UserComponent.js"></script>
+	<script src="src/script-nodes-basic-js/ScriptNode.js"></script>
+	<script src="src/script-nodes-basic-js/OnEventScript.js"></script>
+	<script src="src/script-nodes-basic-js/OnPointerDownScript.js"></script>
+	<script src="src/script-nodes-basic-js/CallbackActionScript.js"></script>
+	<script src="src/script-nodes/PushActionScript.js"></script>
+	<script src="src/script-nodes/PreloadBarUpdaterScript.js"></script>
+	<script src="src/scenes/Preload.js"></script>
+	<script src="src/scenes/Level.js"></script>
+	<script src="src/main.js"></script>
+
+	<style>
+		@font-face {
+			font-family: 'pusab';
+			src: url('assets/fonts/pusab.otf');
+		}
+
+		* {
+			font-family: 'pusab';
+		}
+		body {
+			background: #285D92;
+			background-image: url('./assets/images/background.png');
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+
+		#game-division canvas {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			margin: 0 !important;
+		}
+
+		#game-division {
+			max-height: calc(var(--vh, 1vh) * 100);
+		}
+
+		:root {
+			--vh: 1vh;
+		}
+	</style>
+
+</head>
+
+<body>
+	<script>
+		// let currentLevel = 1;
+	</script>
+	<div id="game-division"></div>
+</body>
+
+</html>
